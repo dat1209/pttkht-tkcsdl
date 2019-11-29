@@ -11921,14 +11921,14 @@
 							ordinal    	28
 							quidu      	"5DE11C3002FA"
 							creation   	FALSE)
-						    (object Message "Hien thi thong tin( )"
+						    (object Message "Hien thi danh sach( )"
 							quid       	"5DE11CF6028B"
 							frequency  	"Aperiodic"
 							synchronization 	"Simple"
 							dir        	"FromClientToSupplier"
 							sequence   	"16.1"
 							ordinal    	35
-							quidu      	"5DE1197D00E2"
+							quidu      	"5DE11D1A0291"
 							creation   	FALSE))))
 					class      	"Logical View::Mo hinh phan tich::boundaryUI::BaoTriSanPham UI"
 					quidu      	"5DE115C302B0"
@@ -12149,7 +12149,7 @@
 					    icon_style 	"Icon"
 					    fill_color 	13434879
 					    anchor     	2
-					    nlines     	17
+					    nlines     	18
 					    max_width  	616
 					    justify    	1)
 					width      	636
@@ -14568,7 +14568,7 @@
 					origin     	(1150, 5119)
 					terminus   	(675, 5119)
 					ordinal    	34)
-				    (object SelfMessView "Hien thi thong tin( )" @703
+				    (object SelfMessView "Hien thi danh sach( )" @703
 					location   	(0, 5224)
 					font       	(object Font
 					    size       	10
@@ -14594,9 +14594,9 @@
 					    quidu      	"5DE11CF6028B"
 					    anchor_loc 	1
 					    nlines     	1
-					    max_width  	407
+					    max_width  	438
 					    justify    	0
-					    label      	"Hien thi thong tin( )"
+					    label      	"Hien thi danh sach( )"
 					    pctDist    	0.500000
 					    height     	45
 					    orientation 	0)
@@ -14905,6 +14905,11 @@
 					uid        	0)
 				    (object Operation "Kich \"xac nhan\""
 					quid       	"5DE11C570101"
+					concurrency 	"Sequential"
+					opExportControl 	"Public"
+					uid        	0)
+				    (object Operation "Hien thi danh sach"
+					quid       	"5DE11D1A0291"
 					concurrency 	"Sequential"
 					opExportControl 	"Public"
 					uid        	0))))
